@@ -1,0 +1,1171 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>今日大赛每日大赛吃瓜-热门赛事吃瓜合集_每日大赛在线围观</title>
+    <meta name="description" content="今日大赛每日大赛吃瓜专题，聚合每日大赛热门赛事、吃瓜合集与围观入口。提供赛事日程、热门看点、网友评论与深度解析，适合想快速了解今日大赛每日大赛吃瓜动态的观众收藏浏览。">
+    <meta name="keywords" content="今日大赛,每日大赛,吃瓜,热门赛事,围观合集">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23f97316'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-weight='bold'%3E瓜%3C/text%3E%3C/svg%3E">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --bg: #fefaf5;
+            --surface: #ffffff;
+            --primary: #ea580c;
+            --primary-light: #fff7ed;
+            --accent: #f97316;
+            --accent-soft: #ffedd5;
+            --text: #1e1b1a;
+            --text-secondary: #57534e;
+            --text-muted: #78716c;
+            --border: #e7e5e4;
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.03);
+            --shadow-md: 0 8px 24px rgba(0,0,0,0.06), 0 2px 6px rgba(0,0,0,0.04);
+            --shadow-hover: 0 12px 32px rgba(234,88,12,0.12);
+            --radius: 16px;
+            --radius-sm: 10px;
+            --font: system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: var(--font);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        /* 导航 */
+        .site-nav {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            backdrop-filter: blur(8px);
+            background: rgba(255,255,255,0.92);
+        }
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+            gap: 24px;
+        }
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-shrink: 0;
+        }
+        .logo-icon {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, #f97316, #ea580c);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1;
+        }
+        .logo-text {
+            font-weight: 700;
+            font-size: 1.25rem;
+            letter-spacing: -0.3px;
+            color: var(--text);
+        }
+        .logo-text span {
+            color: var(--primary);
+        }
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+        }
+        .nav-links a {
+            transition: color 0.2s;
+            padding: 4px 0;
+            border-bottom: 2px solid transparent;
+        }
+        .nav-links a:hover {
+            color: var(--primary);
+            border-bottom-color: var(--primary);
+        }
+        .nav-actions {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+        .btn-outline {
+            border: 1.5px solid var(--border);
+            background: transparent;
+            padding: 8px 18px;
+            border-radius: 40px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+            font-family: var(--font);
+        }
+        .btn-outline:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+            background: var(--primary-light);
+        }
+        .btn-solid {
+            background: var(--primary);
+            border: none;
+            padding: 8px 20px;
+            border-radius: 40px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: white;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-family: var(--font);
+            box-shadow: 0 4px 12px rgba(234,88,12,0.25);
+        }
+        .btn-solid:hover {
+            background: #c2410c;
+            transform: translateY(-1px);
+        }
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--text);
+        }
+        /* Banner 区域 — 搜索框居中型 + 大标题 */
+        .hero-section {
+            padding: 40px 0 32px;
+            background: linear-gradient(165deg, #fff7ed 0%, #fefaf5 80%);
+            border-bottom: 1px solid var(--border);
+        }
+        .hero-content {
+            max-width: 820px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .hero-badge {
+            display: inline-block;
+            background: var(--accent-soft);
+            color: var(--primary);
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 6px 16px;
+            border-radius: 40px;
+            letter-spacing: 0.3px;
+            margin-bottom: 18px;
+        }
+        .hero-section h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            line-height: 1.25;
+            color: var(--text);
+            margin-bottom: 16px;
+        }
+        .hero-section h1 em {
+            font-style: normal;
+            color: var(--primary);
+            background: linear-gradient(135deg, #ea580c, #f97316);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .hero-desc {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 28px;
+            line-height: 1.6;
+        }
+        .search-box {
+            display: flex;
+            background: var(--surface);
+            border-radius: 60px;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+            padding: 4px 4px 4px 24px;
+            margin-bottom: 28px;
+            transition: box-shadow 0.2s;
+        }
+        .search-box:focus-within {
+            box-shadow: 0 0 0 4px rgba(234,88,12,0.15);
+            border-color: var(--primary);
+        }
+        .search-box input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 1rem;
+            font-family: var(--font);
+            background: transparent;
+            color: var(--text);
+        }
+        .search-box input::placeholder {
+            color: var(--text-muted);
+        }
+        .search-box button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 60px;
+            padding: 12px 28px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: background 0.2s;
+            font-family: var(--font);
+            white-space: nowrap;
+        }
+        .search-box button:hover {
+            background: #c2410c;
+        }
+        .hero-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .hero-tags a {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 7px 18px;
+            border-radius: 40px;
+            font-size: 0.88rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            transition: all 0.2s;
+            box-shadow: var(--shadow-sm);
+        }
+        .hero-tags a:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+            background: var(--primary-light);
+            transform: translateY(-2px);
+        }
+        /* 通用板块 */
+        .section {
+            padding: 48px 0;
+        }
+        .section-header {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: var(--text);
+            position: relative;
+        }
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 48px;
+            height: 4px;
+            background: var(--primary);
+            border-radius: 4px;
+            margin-top: 8px;
+        }
+        .section-more {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: gap 0.2s;
+        }
+        .section-more:hover {
+            gap: 8px;
+        }
+        /* 卡片网格 */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 24px;
+        }
+        .card {
+            background: var(--surface);
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            overflow: hidden;
+            transition: all 0.25s ease;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-hover);
+            border-color: var(--accent-soft);
+        }
+        .card-cover {
+            height: 140px;
+            background: linear-gradient(135deg, #ffedd5, #fed7aa);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.4rem;
+            font-weight: 800;
+            color: var(--primary);
+            opacity: 0.7;
+            letter-spacing: 2px;
+        }
+        .card-body {
+            padding: 18px 18px 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            line-height: 1.4;
+            color: var(--text);
+        }
+        .card-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 12px;
+        }
+        .tag {
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 20px;
+            background: var(--accent-soft);
+            color: var(--primary);
+            letter-spacing: 0.2px;
+        }
+        .tag.gray {
+            background: #f5f5f4;
+            color: var(--text-secondary);
+        }
+        .card-desc {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            flex: 1;
+            margin-bottom: 14px;
+        }
+        .card-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border);
+            padding-top: 12px;
+            margin-top: auto;
+        }
+        .card-meta span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        /* 最新更新列表 */
+        .update-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 16px;
+        }
+        .update-item {
+            background: var(--surface);
+            border-radius: var(--radius-sm);
+            padding: 16px 20px;
+            border: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.2s;
+            box-shadow: var(--shadow-sm);
+        }
+        .update-item:hover {
+            border-color: var(--accent);
+            box-shadow: var(--shadow-md);
+        }
+        .update-left {
+            flex: 1;
+        }
+        .update-name {
+            font-weight: 700;
+            font-size: 0.98rem;
+            margin-bottom: 4px;
+        }
+        .update-desc {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+        .update-time {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            white-space: nowrap;
+            margin-left: 16px;
+            background: var(--accent-soft);
+            padding: 4px 10px;
+            border-radius: 20px;
+            color: var(--primary);
+            font-weight: 600;
+        }
+        /* 分类入口 */
+        .cat-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+        }
+        .cat-item {
+            background: var(--surface);
+            border-radius: var(--radius-sm);
+            padding: 20px 16px;
+            text-align: center;
+            border: 1px solid var(--border);
+            transition: all 0.2s;
+            box-shadow: var(--shadow-sm);
+            font-weight: 600;
+            color: var(--text-secondary);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+        .cat-item:hover {
+            background: var(--primary-light);
+            border-color: var(--primary);
+            color: var(--primary);
+            transform: translateY(-2px);
+        }
+        .cat-icon {
+            font-size: 1.6rem;
+        }
+        /* 深度解析 */
+        .deep-analysis {
+            background: var(--surface);
+            border-radius: var(--radius);
+            padding: 32px 36px;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-sm);
+        }
+        .deep-analysis h3 {
+            font-size: 1.3rem;
+            margin-bottom: 16px;
+            margin-top: 24px;
+            color: var(--text);
+        }
+        .deep-analysis h3:first-child {
+            margin-top: 0;
+        }
+        .deep-analysis p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            font-size: 0.98rem;
+            line-height: 1.8;
+        }
+        .deep-analysis strong {
+            color: var(--primary);
+            font-weight: 600;
+        }
+        /* FAQ 手风琴 */
+        .faq-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .faq-item {
+            background: var(--surface);
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+        }
+        .faq-q {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 22px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            background: var(--surface);
+            transition: background 0.2s;
+            list-style: none;
+        }
+        .faq-q::-webkit-details-marker {
+            display: none;
+        }
+        .faq-q:hover {
+            background: var(--primary-light);
+        }
+        .faq-q .arrow {
+            transition: transform 0.25s;
+            font-size: 0.8rem;
+            color: var(--primary);
+        }
+        details[open] .faq-q .arrow {
+            transform: rotate(180deg);
+        }
+        .faq-a {
+            padding: 0 22px 20px;
+            font-size: 0.92rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            border-top: 1px solid transparent;
+        }
+        /* 评论 */
+        .comment-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 16px;
+        }
+        .comment-card {
+            background: var(--surface);
+            border-radius: var(--radius-sm);
+            padding: 16px 18px;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-sm);
+            transition: all 0.2s;
+        }
+        .comment-card:hover {
+            box-shadow: var(--shadow-md);
+        }
+        .comment-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .avatar {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #fed7aa, #fdba74);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.8rem;
+            color: #9a3412;
+            flex-shrink: 0;
+        }
+        .comment-name {
+            font-weight: 600;
+            font-size: 0.88rem;
+        }
+        .comment-date {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            margin-left: auto;
+        }
+        .comment-text {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+        /* 资讯卡片 */
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .news-card {
+            background: var(--surface);
+            border-radius: var(--radius-sm);
+            padding: 20px 22px;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-sm);
+            transition: all 0.2s;
+            display: flex;
+            flex-direction: column;
+        }
+        .news-card:hover {
+            border-color: var(--accent);
+            box-shadow: var(--shadow-md);
+        }
+        .news-date {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        .news-title {
+            font-weight: 700;
+            font-size: 1rem;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+        .news-excerpt {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        /* 页脚 */
+        .site-footer {
+            background: #1c1917;
+            color: #d6d3d1;
+            padding: 48px 0 28px;
+            margin-top: 32px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.5fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        .footer-brand .logo-text {
+            color: white;
+            margin-bottom: 12px;
+            display: inline-block;
+        }
+        .footer-brand p {
+            font-size: 0.85rem;
+            color: #a8a29e;
+            line-height: 1.7;
+            max-width: 280px;
+        }
+        .footer-col h4 {
+            color: white;
+            font-size: 0.95rem;
+            margin-bottom: 16px;
+            font-weight: 600;
+        }
+        .footer-col a {
+            display: block;
+            font-size: 0.85rem;
+            color: #a8a29e;
+            margin-bottom: 10px;
+            transition: color 0.2s;
+        }
+        .footer-col a:hover {
+            color: var(--accent);
+        }
+        .footer-bottom {
+            border-top: 1px solid #292524;
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+            font-size: 0.78rem;
+            color: #78716c;
+        }
+        /* 响应式 */
+        @media (max-width: 1024px) {
+            .cat-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            .mobile-menu-btn {
+                display: block;
+            }
+            .hero-section h1 {
+                font-size: 2rem;
+            }
+            .hero-desc {
+                font-size: 1rem;
+            }
+            .section-title {
+                font-size: 1.5rem;
+            }
+            .update-list {
+                grid-template-columns: 1fr;
+            }
+            .cat-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .deep-analysis {
+                padding: 24px 20px;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 28px;
+            }
+            .search-box {
+                padding-left: 16px;
+            }
+            .search-box button {
+                padding: 12px 20px;
+            }
+        }
+        @media (max-width: 480px) {
+            .hero-section h1 {
+                font-size: 1.6rem;
+            }
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+            .comment-grid {
+                grid-template-columns: 1fr;
+            }
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+            .cat-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .hero-tags a {
+                font-size: 0.8rem;
+                padding: 5px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- 导航 -->
+<nav class="site-nav">
+    <div class="container nav-inner">
+        <div class="logo-area">
+            <div class="logo-icon">瓜</div>
+            <div class="logo-text">今日<span>大赛</span></div>
+        </div>
+        <div class="nav-links">
+            <a href="/#hot-recommend">热门推荐</a>
+            <a href="/#latest-update">最新更新</a>
+            <a href="/#deep-analysis">深度解析</a>
+            <a href="/#category">分类入口</a>
+            <a href="/#faq">常见问题</a>
+            <a href="/#comments">瓜友评论</a>
+        </div>
+        <div class="nav-actions">
+            <button class="btn-outline">登录</button>
+            <button class="btn-solid">吃瓜入口</button>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </div>
+</nav>
+
+<!-- 首屏 Banner -->
+<header class="hero-section">
+    <div class="container hero-content">
+        <div class="hero-badge">🔥 2026年11月7日 · 今日大赛吃瓜集结</div>
+        <h1>今日大赛每日大赛吃瓜<br><em>热门赛事围观合集</em></h1>
+        <p class="hero-desc">每日大赛最新赛况、吃瓜热评、高能瞬间一站聚合。无论你是想追热点、看网友神评，还是补课错过的名场面，这里都能找到你想要的瓜。</p>
+        <div class="search-box">
+            <input type="text" placeholder="搜索今日大赛、每日大赛、吃瓜关键词…" aria-label="搜索框">
+            <button>搜索</button>
+        </div>
+        <div class="hero-tags">
+            <a href="/#hot-recommend">今日大赛热榜</a>
+            <a href="/#latest-update">每日大赛更新</a>
+            <a href="/#category">吃瓜分类</a>
+            <a href="/#deep-analysis">赛事解析</a>
+            <a href="/#comments">瓜友评论</a>
+            <a href="/#faq">新手指南</a>
+            <a href="/#news">赛事资讯</a>
+        </div>
+    </div>
+</header>
+
+<!-- 内容简介 -->
+<section class="section" id="intro">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">今日大赛每日大赛吃瓜 · 内容简介</h2>
+        </div>
+        <div class="deep-analysis" style="padding: 28px 32px;">
+            <p><strong>今日大赛每日大赛吃瓜</strong>是围绕每日大赛赛事内容形成的围观与讨论专题。每天都有新的赛程、新的对决、新的名场面，而吃瓜群众最关心的，往往是那些出人意料的赛果、选手的临场表现、以及评论区里比比赛还精彩的段子。这个页面要做的，就是把散落在各处的“瓜”集中起来，让你不用来回切换平台，就能把今天大赛的精华一次性看明白。</p>
+            <p>如果你是刚接触每日大赛的新瓜友，这里会告诉你哪些场次值得先看、哪些选手是当前热议焦点、哪些梗已经出圈。如果你已经是老瓜农，这里也准备了深度解析和趋势观察，帮你从热闹里看出门道。页面的内容覆盖赛事速递、热门推荐、吃瓜评论、常见问题解答以及相关资讯，适合在通勤路上、午休间隙或者睡前刷一刷。收藏这个页面，每天的大赛瓜点就不会错过。</p>
+        </div>
+    </div>
+</section>
+
+<!-- 热门推荐 -->
+<section class="section" id="hot-recommend">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">今日大赛热门吃瓜推荐</h2>
+            <a href="/#latest-update" class="section-more">更多推荐 →</a>
+        </div>
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-cover">🏆</div>
+                <div class="card-body">
+                    <div class="card-title">每日大赛·巅峰对决夜</div>
+                    <div class="card-tags"><span class="tag">今日大赛</span><span class="tag gray">高能</span><span class="tag gray">争议判罚</span></div>
+                    <div class="card-desc">昨晚的决赛圈反转不断，最后一分钟裁判响哨引发全网热议，吃瓜区已经吵翻了。</div>
+                    <div class="card-meta"><span>🔥 12.8万热度</span><span>评论 2341</span></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-cover">⚡</div>
+                <div class="card-body">
+                    <div class="card-title">黑马选手“冷面瓜王”出圈</div>
+                    <div class="card-tags"><span class="tag">每日大赛</span><span class="tag gray">黑马</span><span class="tag gray">名场面</span></div>
+                    <div class="card-desc">从海选一路杀进四强，赛后采访全程冷脸却金句频出，网友：这瓜保熟。</div>
+                    <div class="card-meta"><span>🔥 9.6万热度</span><span>评论 1876</span></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-cover">🎭</div>
+                <div class="card-body">
+                    <div class="card-title">吃瓜前线：选手互放狠话合集</div>
+                    <div class="card-tags"><span class="tag">吃瓜</span><span class="tag gray">赛前垃圾话</span><span class="tag gray">氛围拉满</span></div>
+                    <div class="card-desc">赛前采访比正赛还刺激，A组两位选手隔空喊话，评论区已经开始站队了。</div>
+                    <div class="card-meta"><span>🔥 8.2万热度</span><span>评论 1456</span></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-cover">📊</div>
+                <div class="card-body">
+                    <div class="card-title">数据党：今日大赛胜率预测</div>
+                    <div class="card-tags"><span class="tag">今日大赛</span><span class="tag gray">数据</span><span class="tag gray">预测</span></div>
+                    <div class="card-desc">基于近30场对局数据推演，今日三场焦点战的胜率模型已经出炉，仅供参考。</div>
+                    <div class="card-meta"><span>🔥 6.9万热度</span><span>评论 987</span></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-cover">🎙️</div>
+                <div class="card-body">
+                    <div class="card-title">赛后群访翻车现场</div>
+                    <div class="card-tags"><span class="tag">每日大赛</span><span class="tag gray">采访</span><span class="tag gray">搞笑</span></div>
+                    <div class="card-desc">选手把主持人的问题听岔了，回答完全跑偏，现场憋笑失败，弹幕全在刷“救命”。</div>
+                    <div class="card-meta"><span>🔥 5.8万热度</span><span>评论 765</span></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-cover">🏅</div>
+                <div class="card-body">
+                    <div class="card-title">每日大赛今日赛程速览</div>
+                    <div class="card-tags"><span class="tag">赛程</span><span class="tag gray">今日大赛</span><span class="tag gray">围观指南</span></div>
+                    <div class="card-desc">下午16:00小组赛，20:00八强战，22:00表演赛。收藏这张时间表，吃瓜不迷路。</div>
+                    <div class="card-meta"><span>🔥 4.7万热度</span><span>评论 543</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 最新更新 -->
+<section class="section" id="latest-update" style="background: #fffaf4;">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">每日大赛最新动态</h2>
+            <a href="/#hot-recommend" class="section-more">查看全部 →</a>
+        </div>
+        <div class="update-list">
+            <div class="update-item">
+                <div class="update-left">
+                    <div class="update-name">A组小组赛第三轮</div>
+                    <div class="update-desc">“冷面瓜王”再次零封对手，赛后数据面板拉满</div>
+                </div>
+                <div class="update-time">11-07 15:30</div>
+            </div>
+            <div class="update-item">
+                <div class="update-left">
+                    <div class="update-name">今日大赛解说阵容公布</div>
+                    <div class="update-desc">老牌解说“瓜哥”搭档新锐主播小鹿，网友直呼组合有梗</div>
+                </div>
+                <div class="update-time">11-07 14:12</div>
+            </div>
+            <div class="update-item">
+                <div class="update-left">
+                    <div class="update-name">B组焦点战改期</div>
+                    <div class="update-desc">因设备检修延后一小时，具体开赛时间以官方通知为准</div>
+                </div>
+                <div class="update-time">11-07 12:45</div>
+            </div>
+            <div class="update-item">
+                <div class="update-left">
+                    <div class="update-name">昨日争议判罚复核结果</div>
+                    <div class="update-desc">裁判组发布说明，维持原判但承认沟通存在改进空间</div>
+                </div>
+                <div class="update-time">11-07 10:20</div>
+            </div>
+            <div class="update-item">
+                <div class="update-left">
+                    <div class="update-name">选手“糖豆”发布动态</div>
+                    <div class="update-desc">晒出训练室盒饭并配文“吃饱了才有力气吃瓜”，评论区笑成一片</div>
+                </div>
+                <div class="update-time">11-07 09:08</div>
+            </div>
+            <div class="update-item">
+                <div class="update-left">
+                    <div class="update-name">每日大赛周边抽奖开启</div>
+                    <div class="update-desc">转发赛事话题即有机会获得限定徽章，瓜友参与热情高涨</div>
+                </div>
+                <div class="update-time">11-06 21:30</div>
+            </div>
+            <div class="update-item">
+                <div class="update-left">
+                    <div class="update-name">C组出线形势分析</div>
+                    <div class="update-desc">三队积分胶着，最后一场将决定谁能晋级八强</div>
+                </div>
+                <div class="update-time">11-06 19:15</div>
+            </div>
+            <div class="update-item">
+                <div class="update-left">
+                    <div class="update-name">今日大赛高光镜头回放</div>
+                    <div class="update-desc">官方剪辑发布五分钟集锦，弹幕刷屏“再看亿遍”</div>
+                </div>
+                <div class="update-time">11-06 17:40</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 分类入口 -->
+<section class="section" id="category">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">吃瓜分类入口</h2>
+            <a href="/#hot-recommend" class="section-more">全部分类 →</a>
+        </div>
+        <div class="cat-grid">
+            <a href="/#latest-update" class="cat-item"><span class="cat-icon">🔥</span>今日大赛热榜</a>
+            <a href="/#latest-update" class="cat-item"><span class="cat-icon">📅</span>每日赛程速递</a>
+            <a href="/#comments" class="cat-item"><span class="cat-icon">💬</span>瓜友神评论</a>
+            <a href="/#deep-analysis" class="cat-item"><span class="cat-icon">🔍</span>赛事深度解析</a>
+            <a href="/#hot-recommend" class="cat-item"><span class="cat-icon">🎭</span>名场面合集</a>
+            <a href="/#faq" class="cat-item"><span class="cat-icon">📖</span>新瓜友入门</a>
+            <a href="/#news" class="cat-item"><span class="cat-icon">📰</span>大赛资讯</a>
+            <a href="/#hot-recommend" class="cat-item"><span class="cat-icon">🏆</span>选手风云榜</a>
+        </div>
+    </div>
+</section>
+
+<!-- 深度解析 -->
+<section class="section" id="deep-analysis" style="background: #fffaf4;">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">每日大赛吃瓜深度解析</h2>
+        </div>
+        <div class="deep-analysis">
+            <h3>每日大赛为什么这么“好吃”？</h3>
+            <p>每日大赛的赛制本身就带着强烈的戏剧张力——单日多轮、短时间高强度对抗，选手的体力和心态都在极限边缘。这种设定下，爆冷、翻盘、失误、争议几乎每天都会出现，而吃瓜群众最爱看的恰恰就是这些不可预测的瞬间。<strong>今日大赛每日大赛吃瓜</strong>之所以热度居高不下，核心就在于它把竞技的严肃性和围观的娱乐性揉在了一起，你既可以认真分析战术，也可以纯粹看个乐子。</p>
+            <h3>当前热议焦点与选手表现</h3>
+            <p>这两天瓜友讨论度最高的无疑是“冷面瓜王”的异军突起。这位选手赛前几乎没人看好，但小组赛连续三场打出压制级表现，赛后采访又惜字如金，反差感拉满。另外A组那场争议判罚也还在发酵，裁判报告虽然出了，但评论区并不买账，有人觉得规则就是规则，也有人认为沟通方式需要改进。这种“比赛之内有胜负，比赛之外有话题”的状态，正是每日大赛内容生态的一部分。</p>
+            <h3>从吃瓜到看懂门道</h3>
+            <p>如果你只看热闹，可能会错过每日大赛真正的看点。比如选手在高压下的决策习惯、不同阵容之间的克制关系、以及解说提到的“节奏点”到底指什么。我们在深度解析里会尽量用大白话把这些拆开，让新瓜友也能快速跟上讨论。当然，吃瓜本身没有门槛，你完全可以只看高能剪辑和评论区段子，这也是一种快乐的消费方式。</p>
+            <h3>今日大赛的消费节奏建议</h3>
+            <p>每天赛程密集，全看下来不太现实。建议优先关注官方预告的焦点战，其余场次可以看赛后集锦和评论区补课。本页的“最新动态”和“热门推荐”就是按这个逻辑整理的——先告诉你今天有什么值得看，再给你一个快速进入的入口。<strong>每日大赛</strong>的魅力在于每天都有新鲜感，而<strong>吃瓜</strong>的乐趣在于和大家一起实时讨论，所以别忘了翻到下面的评论区，那里往往比比赛本身还有意思。</p>
+        </div>
+    </div>
+</section>
+
+<!-- 体验指南 -->
+<section class="section" id="guide">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">围观体验指南</h2>
+        </div>
+        <div class="deep-analysis" style="padding: 28px 32px;">
+            <p><strong>页面结构清晰：</strong>从热门推荐到最新动态，再到深度解析和评论区，所有内容按“先看什么、再看什么”的顺序排布，滑动即可浏览，不需要反复跳转。</p>
+            <p><strong>分类筛选方便：</strong>顶部导航和分类入口覆盖了赛程、评论、解析、资讯等常用维度，点击即可定位到对应板块，适合快速补课。</p>
+            <p><strong>移动端友好：</strong>排版针对手机屏幕做了适配，卡片自动调整列数，文字大小和间距在移动端阅读不累眼，通勤路上刷也很舒服。</p>
+            <p><strong>适合追更与收藏：</strong>每日大赛的内容每天都在更新，把这个页面加入书签，就能持续跟进吃瓜进度，不会漏掉新的热点。</p>
+            <p><strong>推荐延伸浏览：</strong>每个推荐卡片和资讯条目都指向相关话题，看完主内容后可以顺势点开感兴趣的条目，浏览路径自然不突兀。</p>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq" style="background: #fffaf4;">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">每日大赛吃瓜常见问题</h2>
+        </div>
+        <div class="faq-list">
+            <details class="faq-item" open>
+                <summary class="faq-q">今日大赛和每日大赛是同一个比赛吗？<span class="arrow">▼</span></summary>
+                <div class="faq-a">可以理解为同一赛事体系下的不同叫法。“每日大赛”更强调每天都有的常规赛程，而“今日大赛”通常指当天正在进行的比赛内容。在吃瓜语境里两者经常混用，核心都是围绕每日更新的赛事展开讨论和围观。</div>
+            </details>
+            <details class="faq-item">
+                <summary class="faq-q">第一次看每日大赛，应该从哪里开始？<span class="arrow">▼</span></summary>
+                <div class="faq-a">建议先从“最新动态”了解今天有哪些场次，再挑一场焦点战看直播或回放。如果时间有限，直接看“热门推荐”里的高能合集和评论区，也能快速掌握当天的主要话题，不至于在群里接不上话。</div>
+            </details>
+            <details class="faq-item">
+                <summary class="faq-q">吃瓜评论区和比赛本身哪个更有意思？<span class="arrow">▼</span></summary>
+                <div class="faq-a">这取决于你的口味。比赛本身有竞技层面的看点，而评论区往往是段子、吐槽、表情包和神补刀的聚集地。很多瓜友表示“比赛可以输，评论区不能输”，两边配合着看体验最好，也更容易理解一些出圈梗的来源。</div>
+            </details>
+            <details class="faq-item">
+                <summary class="faq-q">每日大赛的赛程每天都会变吗？<span class="arrow">▼</span></summary>
+                <div class="faq-a">常规赛程有固定框架，但具体开赛时间、对阵顺序和场地安排会根据实际情况微调。建议以当天官方发布的赛程为准，本页的“最新动态”也会同步更新重要调整信息，关注这里可以避免扑空。</div>
+            </details>
+            <details class="faq-item">
+                <summary class="faq-q">页面里的推荐内容会每天更新吗？<span class="arrow">▼</span></summary>
+                <div class="faq-a">会的。热门推荐和最新动态会跟随当日赛况调整，深度解析也会结合近期热议话题更新角度。收藏页面后定期刷新，就能看到新的吃瓜内容，不需要自己到处搜罗碎片信息。</div>
+            </details>
+            <details class="faq-item">
+                <summary class="faq-q">看不懂比赛规则，还能愉快吃瓜吗？<span class="arrow">▼</span></summary>
+                <div class="faq-a">完全可以。吃瓜的门槛比想象中低，很多讨论集中在选手表现、名场面和赛后采访上，并不需要精通规则。如果想补课，可以看看FAQ和深度解析里的基础说明，几段话就能了解个大概，剩下的边看边学就行。</div>
+            </details>
+        </div>
+    </div>
+</section>
+
+<!-- 用户评论 -->
+<section class="section" id="comments">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">瓜友评论区</h2>
+            <span style="font-size:0.85rem;color:var(--text-muted);">近30天热门评论</span>
+        </div>
+        <div class="comment-grid">
+            <div class="comment-card">
+                <div class="comment-header"><div class="avatar">瓜</div><div class="comment-name">吃瓜不吐皮</div><div class="comment-date">11-06</div></div>
+                <div class="comment-text">昨天那个争议判罚我回看了三遍，感觉裁判确实有点抢戏，但结果改不了，只能看今天能不能消停点。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-header"><div class="avatar">冷</div><div class="comment-name">冷面瓜王铁粉</div><div class="comment-date">11-06</div></div>
+                <div class="comment-text">冷面瓜王采访那段我笑死，主持人问啥他都“还行”，最后憋出一句“瓜挺甜的”，这人太有意思了。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-header"><div class="avatar">数</div><div class="comment-name">数据流吃瓜</div><div class="comment-date">11-05</div></div>
+                <div class="comment-text">胜率预测看看就好，每日大赛的变数太大，上次模型给九一开的那场直接翻车，数据党也要有心理准备。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-header"><div class="avatar">路</div><div class="comment-name">路过的小瓜</div><div class="comment-date">11-05</div></div>
+                <div class="comment-text">刚入坑，想问下今天先看哪场？赛程太多了根本看不过来，求个课代表划重点。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-header"><div class="avatar">解</div><div class="comment-name">解说别停</div><div class="comment-date">11-04</div></div>
+                <div class="comment-text">今天解说组合比比赛还有梗，瓜哥那句“这波操作属于是饿了”直接把我笑喷，建议多安排这种搭档。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-header"><div class="avatar">吐</div><div class="comment-name">吐槽役担当</div><div class="comment-date">11-04</div></div>
+                <div class="comment-text">B组改期通知发得太晚了，我都蹲好了才说延后，希望官方以后能早点同步，别让瓜友干等。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-header"><div class="avatar">追</div><div class="comment-name">追更人小鹿</div><div class="comment-date">11-03</div></div>
+                <div class="comment-text">每天下班就靠这个页面补课了，热门推荐和评论区一起看，效率很高，比自己去翻各种片段省事多了。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-header"><div class="avatar">中</div><div class="comment-name">中立吃瓜选手</div><div class="comment-date">11-03</div></div>
+                <div class="comment-text">两边粉丝吵得有点凶，其实比赛内容本身挺精彩的，希望大家吃瓜归吃瓜，别太上头。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-header"><div class="avatar">高</div><div class="comment-name">高光收藏家</div><div class="comment-date">11-02</div></div>
+                <div class="comment-text">官方集锦剪得不错，五分钟把关键镜头都覆盖了，适合我这种只看高能片段的人。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-header"><div class="avatar">新</div><div class="comment-name">新瓜报到</div><div class="comment-date">11-02</div></div>
+                <div class="comment-text">请问每日大赛的周边抽奖在哪里参与？翻了半天没找到入口，有知道的瓜友指个路吗。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-header"><div class="avatar">老</div><div class="comment-name">老瓜农阿丙</div><div class="comment-date">11-01</div></div>
+                <div class="comment-text">看了三年每日大赛，今年的黑马确实多，节奏也比往年快，吃瓜体验升级了，就是肝有点不够用。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-header"><div class="avatar">糖</div><div class="comment-name">糖豆的盒饭</div><div class="comment-date">11-01</div></div>
+                <div class="comment-text">糖豆晒盒饭那条动态笑死，底下全是问菜谱的，建议大赛官方出个选手同款伙食测评。</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 相关资讯 -->
+<section class="section" id="news" style="background: #fffaf4;">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">大赛相关资讯</h2>
+            <a href="/#hot-recommend" class="section-more">更多资讯 →</a>
+        </div>
+        <div class="news-grid">
+            <div class="news-card">
+                <div class="news-date">2026-11-07</div>
+                <div class="news-title">每日大赛八强席位今日决出三席</div>
+                <div class="news-excerpt">小组赛进入尾声，多个小组出线形势胶着，今日赛后将有至少三支队伍锁定八强名额。</div>
+            </div>
+            <div class="news-card">
+                <div class="news-date">2026-11-06</div>
+                <div class="news-title">官方回应争议判罚：维持原判，优化沟通流程</div>
+                <div class="news-excerpt">裁判组发布说明，表示判罚依据充分，同时承认现场沟通方式有待改进，后续会加强培训。</div>
+            </div>
+            <div class="news-card">
+                <div class="news-date">2026-11-06</div>
+                <div class="news-title">“冷面瓜王”赛后采访成梗，表情包已出圈</div>
+                <div class="news-excerpt">选手冷脸金句被网友做成表情包，在各大社群快速传播，相关话题阅读量持续攀升。</div>
+            </div>
+            <div class="news-card">
+                <div class="news-date">2026-11-05</div>
+                <div class="news-title">每日大赛周边抽奖首日参与量破十万</div>
+                <div class="news-excerpt">官方周边活动开启首日就吸引大量瓜友参与，限定徽章成为讨论热点，中奖名单将于下周公布。</div>
+            </div>
+            <div class="news-card">
+                <div class="news-date">2026-11-04</div>
+                <div class="news-title">解说阵容公布：瓜哥搭档小鹿引期待</div>
+                <div class="news-excerpt">今日大赛解说名单出炉，老牌解说与新锐主播的组合让不少观众直呼“有梗”，弹幕区提前预热。</div>
+            </div>
+            <div class="news-card">
+                <div class="news-date">2026-11-03</div>
+                <div class="news-title">数据观察：每日大赛平均对局时长缩短</div>
+                <div class="news-excerpt">近一周数据显示，比赛节奏明显加快，平均对局时长比上个月缩短约12%，观赏性进一步提升。</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 页脚 -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo-text">今日<span style="color:var(--accent);">大赛</span></div>
+                <p>每日大赛吃瓜专题站，聚合热门赛事、高能瞬间与瓜友评论。内容仅供参考与娱乐，赛事信息请以官方发布为准。</p>
+            </div>
+            <div class="footer-col">
+                <h4>快速导航</h4>
+                <a href="/#hot-recommend">热门推荐</a>
+                <a href="/#latest-update">最新动态</a>
+                <a href="/#deep-analysis">深度解析</a>
+                <a href="/#category">分类入口</a>
+            </div>
+            <div class="footer-col">
+                <h4>围观指南</h4>
+                <a href="/#guide">体验指南</a>
+                <a href="/#faq">常见问题</a>
+                <a href="/#comments">瓜友评论</a>
+                <a href="/#news">相关资讯</a>
+            </div>
+            <div class="footer-col">
+                <h4>友情链接</h4>
+                <a href="/#">赛事官网（占位）</a>
+                <a href="/#">吃瓜社区（占位）</a>
+                <a href="/#">数据平台（占位）</a>
+                <a href="/#">合作联系（占位）</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 今日大赛每日大赛吃瓜 · 内容仅供围观参考</span>
+            <span>免责声明：本页赛事信息与用户评论均为模拟展示，不构成任何建议。</span>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</body>
+  </html>
